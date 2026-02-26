@@ -1,1 +1,1 @@
-System.out.print(arr[i] + " ");
+ // arr.remove(n-1);
