@@ -30,15 +30,15 @@ JAVA/
 The Basic directory contains introductory Java programs covering:
 
 - **Hello World & Output**
-  - `Basics.java` - Basic print statements and output formatting
+  - `Basics.java` - Basic print statements and output formatting  
   
 - **Variables and Data Types**
   - `variables.java` - Variable declaration and usage
-  - `doubledatatype.java` - Working with double data type
+  - `doubledatatype.java` - Working with double data type  
   
 - **User Input**
   - `TakeInput.java` - Scanner class and user input handling
-  - `sumInputs.java` - Taking multiple inputs and performing operations
+  - `sumInputs.java` - Taking multiple inputs and performing operations  
   
 - **Arithmetic Operations**
   - `arithmetic.java` - Basic mathematical operations and string concatenation
