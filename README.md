@@ -2,293 +2,136 @@
 
 A comprehensive collection of Java programs covering fundamental concepts, data structures, and Object-Oriented Programming principles. This repository serves as a learning resource and reference for Java developers.
 
-## 📋 Table of Contents
-
-- [Repository Structure](#repository-structure)
-- [Topics Covered](#topics-covered)
-- [Getting Started](#getting-started)
-- [Directory Details](#directory-details)
-- [Resources](#resources)
-- [Contributing](#contributing)
-
-## 🗂️ Repository Structure
-
-```
-JAVA/
-├── Basic/                    # Fundamental Java concepts
-├── Linked List/             # Linked list implementations and operations
-├── OOP/                     # Object-Oriented Programming concepts
-├── Stack/                   # Stack data structure and applications
-├── JavaOneShotPart1.pdf    # Reference material (Part 1)
-└── JavaOneShotPart2.pdf    # Reference material (Part 2)
-```
-
-## 🎯 Topics Covered
-
-### 1. **Basic Java Fundamentals** (`/Basic`)
-
-The Basic directory contains introductory Java programs covering:
-
-- **Hello World & Output**
-  - `Basics.java` - Basic print statements and output formatting  
-  
-- **Variables and Data Types**
-  - `variables.java` - Variable declaration and usage
-  - `doubledatatype.java` - Working with double data type  
-  
-- **User Input**
-  - `TakeInput.java` - Scanner class and user input handling
-  - `sumInputs.java` - Taking multiple inputs and performing operations  
-  
-- **Arithmetic Operations**
-  - `arithmetic.java` - Basic mathematical operations and string concatenation
-
-**Key Concepts**: Print statements, variables, data types, Scanner class, arithmetic operations
-
----
-
-### 2. **Linked List** (`/Linked List`)
-
-Comprehensive implementation of linked list data structures:
-
-- **Doubly Linked List**
-  - `doublyLL.java` - Complete implementation with:
-    - Display forward and reverse
-    - Insert at head, tail, and specific index
-    - Node navigation
-
-- **List Operations**
-  - `reverseList.java` - Recursive reversal of linked lists
-  - `nthNodefromEnd.java` - Finding and deleting nth node from end
-    - Two approaches: basic and two-pointer technique
-
-**Key Algorithms**:
-- Recursive display and reversal
-- Two-pointer technique for nth node
-- Dynamic insertion and deletion
-
----
-
-### 3. **Object-Oriented Programming** (`/OOP`)
-
-Complete coverage of OOP principles with practical examples:
-
-#### Core OOP Concepts
-
-**Encapsulation**
-- `Encapsulation.java` - Data hiding and access control using getters/setters
-
-**Inheritance**
-- `Inheritance.java` - Parent-child class relationships
-- `Vehicle.class`, `Car.class`, `Scooter.class` - Vehicle hierarchy example
-
-**Polymorphism**
-- `CompilePolymorphism.java` - Method overloading (compile-time polymorphism)
-- `RuntimePolymorphism.java` - Method overriding (runtime polymorphism)
-- `MethodOverloading.class` - Multiple method signatures
-
-**Abstraction**
-- `Abstraction.java` - Abstract classes and methods
-- `Bank.class`, `SBI.class`, `HDFC.class`, `ICICI.class` - Banking system example
-
-#### Advanced OOP Concepts
-
-**Association**
-- `association.java` - Has-A relationship demonstration
-- `Dependency.java` - Dependency relationships between classes
-
-**Practical Implementations**
-- `Student.class` - Student management example
-- `Account.class`, `Address.class` - Composite objects
-- `Calculator.class`, `Printer.class` - Utility class examples
-
----
-
-### 4. **Stack Data Structure** (`/Stack`)
-
-Extensive coverage of stack operations and applications:
-
-#### Stack Implementations
-
-**Array-Based**
-- `ArrayImplementationOfStack.java` - Stack using arrays
-  - Push, pop, peek operations
-  - Size and capacity management
-
-**Linked List-Based**
-- `LLImplementationOfStack.java` - Stack using linked list
-  - Dynamic size
-  - Node-based implementation
-
-#### Basic Stack Operations
-
-- `basics.java` - Introduction to Stack class
-- `DisplayStack.java` - Different methods to display stack contents
-- `InsertionInStack.java` - Inserting elements in stack
-- `ReverseStack.java` - Reversing stack using recursion
-- `moveStackInSameOrder.java` - Transferring stack while maintaining order
-
-#### Stack Applications
-
-**Expression Evaluation**
-- `Infix.java` - Infix expression evaluation
-- `PostfixEvaluation.java` - Postfix expression evaluation
-- `PrefixEvaluation.java` - Prefix expression evaluation
-
-**Expression Conversion**
-- `InfixToPostfix.java` - Convert infix to postfix notation
-- `InfixToPrefix.java` - Convert infix to prefix notation
-- `PostfixToInfix.java` - Convert postfix to infix notation
-- `PostfixToPrefix.java` - Convert postfix to prefix notation
-- `PrefixToInfix.java` - Convert prefix to infix notation
-- `PrefixToPostfix.java` - Convert prefix to postfix notation
-
-**Problem Solving**
-- `BalancedParenthesis.java` - Check for balanced parentheses
-- `NextGreaterElement.java` - Find next greater element in array
-- `RemoveConsecutiveSubsequences.java` - Remove consecutive duplicate elements
-
-#### Reference Materials
-- `Stack L3.pdf` - Stack concepts lecture notes
-- `Stacks 2 INTERVIEW.pdf` - Interview preparation material
-- `Stacks L1.pdf` - Introductory stack concepts
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- Java IDE (IntelliJ IDEA, Eclipse, VS Code) or text editor
-- Basic understanding of programming concepts
-
-### Running the Programs
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Shraman008/JAVA.git
-cd JAVA
-```
-
-2. **Compile a Java file**
-```bash
-javac Basic/Basics.java
-```
-
-3. **Run the compiled program**
-```bash
-java -cp Basic Basics
-```
-
-### Example: Running the TakeInput Program
-
-```bash
-# Navigate to Basic directory
-cd Basic
-
-# Compile
-javac TakeInput.java
-
-# Run
-java TakeInput
-```
-
----
-
-## 📖 Directory Details
-
-### Basic Directory
-Contains foundational Java programs for beginners. Start here if you're new to Java.
-
-**Learning Path**:
-1. `Basics.java` - Understand output
-2. `variables.java` - Learn variables
-3. `TakeInput.java` - User input handling
-4. `arithmetic.java` - Mathematical operations
-
-### Linked List Directory
-Implements various linked list operations with optimized algorithms.
-
-**Highlights**:
-- Doubly linked list with bidirectional traversal
-- Efficient nth node from end using two-pointer technique
-- Recursive operations
-
-### OOP Directory
-Comprehensive examples of all OOP principles with real-world scenarios.
-
-**Key Features**:
-- Banking system demonstrating abstraction
-- Vehicle hierarchy showing inheritance
-- Polymorphism examples (compile-time and runtime)
-
-### Stack Directory
-Complete stack implementation with practical applications.
-
-**Notable Programs**:
-- Multiple stack implementations (Array & Linked List)
-- Expression conversions (6 different conversion types)
-- Stack-based problem solving
-
----
-
-## 📚 Resources
-
-This repository includes PDF resources:
-- `JavaOneShotPart1.pdf` - Comprehensive Java concepts (Part 1)
-- `JavaOneShotPart2.pdf` - Advanced Java topics (Part 2)
-- Stack tutorial PDFs in `/Stack` directory
-
----
-
-## 🎓 Learning Outcomes
-
-After working through this repository, you will:
-
-✅ Understand Java syntax and fundamentals  
-✅ Implement and manipulate linked lists  
-✅ Apply OOP principles in real-world scenarios  
-✅ Master stack data structure and its applications  
-✅ Solve expression evaluation and conversion problems  
-✅ Write clean, well-structured Java code  
-
----
-
-## 💡 Best Practices Demonstrated
-
-- Proper naming conventions (camelCase for methods/variables)
-- Code organization in classes
-- Use of static methods where appropriate
-- Implementation of data structures from scratch
-- Recursive and iterative approaches
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Add new programs
-- Improve existing code
-- Fix bugs
-- Enhance documentation
-
----
-
-## 📧 Contact
-
-**Repository Owner**: Shraman008  
-**GitHub**: [https://github.com/Shraman008](https://github.com/Shraman008)
-
----
-
-## 📝 Notes
-
-- `.class` files are compiled bytecode (can be excluded from repository using `.gitignore`)
-- `tempCodeRunnerFile.java` files are temporary and can be ignored
-- All programs are standalone and can be run independently
-
----
+## 🧭 Clickable Repository Index (Java files)
+
+> Click a **folder** to open it, or click a **file** to open it.
+
+- [Basic/](Basic/)
+  - [Basics.java](Basic/Basics.java)
+  - [TakeInput.java](Basic/TakeInput.java)
+  - [arithmetic.java](Basic/arithmetic.java)
+  - [doubledatatype.java](Basic/doubledatatype.java)
+  - [sumInputs.java](Basic/sumInputs.java)
+  - [variables.java](Basic/variables.java)
+
+- [Array/](Array/)
+  - [ArrayListBasic.java](Array/ArrayListBasic.java)
+  - [Basic.java](Array/Basic.java)
+  - [ForEach.java](Array/ForEach.java)
+  - [LinearSearch.java](Array/LinearSearch.java)
+  - [MaxValue.java](Array/MaxValue.java)
+  - [MergeTwoSortedArrays.java](Array/MergeTwoSortedArrays.java)
+  - [MissingNumber.java](Array/MissingNumber.java)
+  - [NegativeValues.java](Array/NegativeValues.java)
+  - [PassingArrayToMethods.java](Array/PassingArrayToMethods.java)
+  - [ReverseArray.java](Array/ReverseArray.java)
+  - [RotateArray.java](Array/RotateArray.java)
+  - [SecondMaxima.java](Array/SecondMaxima.java)
+  - [ShallowDeepCopy.java](Array/ShallowDeepCopy.java)
+
+- [2D Arrays/](2D%20Arrays/)
+  - [ArrayLists.java](2D%20Arrays/ArrayLists.java)
+  - [Basic.java](2D%20Arrays/Basic.java)
+  - [ColumswisePrint.java](2D%20Arrays/ColumswisePrint.java)
+  - [ForEach.java](2D%20Arrays/ForEach.java)
+  - [MatrixMultiplication.java](2D%20Arrays/MatrixMultiplication.java)
+  - [MaxSumInRow.java](2D%20Arrays/MaxSumInRow.java)
+  - [MultiplyMatrices.java](2D%20Arrays/MultiplyMatrices.java)
+  - [RowColumnReverse.java](2D%20Arrays/RowColumnReverse.java)
+  - [SnakePattern.java](2D%20Arrays/SnakePattern.java)
+  - [SnakePrintColumnWise.java](2D%20Arrays/SnakePrintColumnWise.java)
+  - [SpiralMatrix.java](2D%20Arrays/SpiralMatrix.java)
+  - [Sum.java](2D%20Arrays/Sum.java)
+  - [TransposeOfMatrix.java](2D%20Arrays/TransposeOfMatrix.java)
+
+- [Cyclic Sort/](Cyclic%20Sort/)
+  - [CyclicSort.java](Cyclic%20Sort/CyclicSort.java)
+
+- [Functions/](Functions/)
+  - [ArgumentsAndParameters.java](Functions/ArgumentsAndParameters.java)
+  - [BuiltIn.java](Functions/BuiltIn.java)
+  - [Example.java](Functions/Example.java)
+  - [PermutationAndCombination.java](Functions/PermutationAndCombination.java)
+  - [ReturnIsMandatory.java](Functions/ReturnIsMandatory.java)
+  - [ReturnType.java](Functions/ReturnType.java)
+
+- [Strings/](Strings/)
+  - [AllSubstring.java](Strings/AllSubstring.java)
+  - [Basic.java](Strings/Basic.java)
+  - [BuiltInMethods.java](Strings/BuiltInMethods.java)
+  - [CompareStrings.java](Strings/CompareStrings.java)
+  - [CompareToString.java](Strings/CompareToString.java)
+  - [CountDigits.java](Strings/CountDigits.java)
+  - [IntToString.java](Strings/IntToString.java)
+  - [Plus.java](Strings/Plus.java)
+  - [ReverseSB.java](Strings/ReverseSB.java)
+  - [StringBuilders.java](Strings/StringBuilders.java)
+  - [StringToCharArray.java](Strings/StringToCharArray.java)
+  - [SubstringOfString.java](Strings/SubstringOfString.java)
+  - [SubstringSum.java](Strings/SubstringSum.java)
+  - [VowelsCount.java](Strings/VowelsCount.java)
+
+- [Linked List/](Linked%20List/)
+  - [doublyLL.java](Linked%20List/doublyLL.java)
+  - [nthNodefromEnd.java](Linked%20List/nthNodefromEnd.java)
+  - [reverseList.java](Linked%20List/reverseList.java)
+
+- [OOP/](OOP/)
+  - [Abstraction.java](OOP/Abstraction.java)
+  - [CompilePolymorphism.java](OOP/CompilePolymorphism.java)
+  - [Dependency.java](OOP/Dependency.java)
+  - [Encapsulation.java](OOP/Encapsulation.java)
+  - [Inheritance.java](OOP/Inheritance.java)
+  - [RuntimePolymorphism.java](OOP/RuntimePolymorphism.java)
+  - [association.java](OOP/association.java)
+
+- [Stack/](Stack/)
+  - [ArrayImplementationOfStack.java](Stack/ArrayImplementationOfStack.java)
+  - [BalancedParenthesis.java](Stack/BalancedParenthesis.java)
+  - [DisplayStack.java](Stack/DisplayStack.java)
+  - [Infix.java](Stack/Infix.java)
+  - [InfixToPostfix.java](Stack/InfixToPostfix.java)
+  - [InfixToPrefix.java](Stack/InfixToPrefix.java)
+  - [InsertionInStack.java](Stack/InsertionInStack.java)
+  - [LLImplementationOfStack.java](Stack/LLImplementationOfStack.java)
+  - [NextGreaterElement.java](Stack/NextGreaterElement.java)
+  - [PostfixEvaluation.java](Stack/PostfixEvaluation.java)
+  - [PostfixToInfix.java](Stack/PostfixToInfix.java)
+  - [PostfixToPrefix.java](Stack/PostfixToPrefix.java)
+  - [PrefixEvaluation.java](Stack/PrefixEvaluation.java)
+  - [PrefixToInfix.java](Stack/PrefixToInfix.java)
+  - [PrefixToPostfix.java](Stack/PrefixToPostfix.java)
+  - [RemoveConsecutiveSubsequences.java](Stack/RemoveConsecutiveSubsequences.java)
+  - [ReverseStack.java](Stack/ReverseStack.java)
+  - [basics.java](Stack/basics.java)
+  - [moveStackInSameOrder.java](Stack/moveStackInSameOrder.java)
+
+- [Queue/](Queue/)
+  - [ArrayImplementation.java](Queue/ArrayImplementation.java)
+  - [Basic.java](Queue/Basic.java)
+  - [CircularQueueArray.java](Queue/CircularQueueArray.java)
+  - [DisplayQueue.java](Queue/DisplayQueue.java)
+  - [LLImplementation.java](Queue/LLImplementation.java)
+  - [QueueSTLBasics.java](Queue/QueueSTLBasics.java)
+  - [ReorderQueue.java](Queue/ReorderQueue.java)
+  - [ReverseAQueue.java](Queue/ReverseAQueue.java)
+
+- [Sorting/](Sorting/)
+  - [BubbleSort.java](Sorting/BubbleSort.java)
+  - [BubbleSortOptimized.java](Sorting/BubbleSortOptimized.java)
+  - [InsertionSort.java](Sorting/InsertionSort.java)
+  - [SelectionSort.java](Sorting/SelectionSort.java)
+
+- [Merge Sort/](Merge%20Sort/)
+  - [InversionCount.java](Merge%20Sort/InversionCount.java)
+  - [MergeSort.java](Merge%20Sort/MergeSort.java)
+  - [ReversePair.java](Merge%20Sort/ReversePair.java)
+
+- [Maps_&_Sets/](Maps_%26_Sets/)
+  - [Maps_STL.java](Maps_%26_Sets/Maps_STL.java)
+  - [Sets_STL.java](Maps_%26_Sets/Sets_STL.java)
+  - [TwoSum.java](Maps_%26_Sets/TwoSum.java)
+  - [MissingElementsInRange.java](Maps_%26_Sets/MissingElementsInRange.java)
 
 ## ⭐ Show Your Support
 
